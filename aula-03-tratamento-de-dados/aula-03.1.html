@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./aula-03.css">
+    <title>Aula_01_Curso_em_video</title>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição</p>
+
+    <script>
+        /*
+        let n1 = window.prompt('Digite um numero;');
+        let n2 = window.prompt('Digite outro numero');
+        let soma = n1 + n2;
+
+        // O resultado é a cocatenação do valor de n1 e n2 pois o prompt é uma stryng e não number, para o valor ser number tem que converter
+        */
+
+        /*
+        let n1 = Number.parseInt(window.prompt('Digite um numero:'));
+        let n2 = Number.parseInt(window.prompt('Digite outro numero:'));
+        let soma = n1 + n2;
+        window.alert('A soma dos dois valores é ' + soma);
+        // NumberṕarseInt, numeros inteiros
+
+        /*
+        let n1 = Number.parseFloat(window.prompt('Digite um numero:'));
+        let n2 = Number.parseFloat(window.prompt('Digite outro numero:'));
+        let soma = n1 + n2;
+        window.alert('A soma dos dois valores é ' + soma);
+        // Number.parseFloat numeros fracionarios
+        */
+
+        let n1 = Number(window.prompt('Digite um numero:'));
+        let n2 = Number(window.prompt('Digite outro numero:'));
+        let soma = n1 + n2;
+        window.alert(`Asoma entre ${n1} e ${n2} é = ${soma}`);
+        // Pode ser usado sor Number, não recomendado
+        // Usando template string (sempre usar crase)
+
+        // Converter number para string(n), String letra maiuscula ou n.toString()
+
+        let s = 'Javascript';
+        'Eu estou aprendendo s' // não vaz interpolação
+        'eu estou apreendendo' + s // usa concatenação
+        `Eu estou aprendendo ${s}` // usa template string
+
+        s.length  // quantos caracteres a string tem
+        s.toUpperCase() // tudo para 'MAIÚSCULAS'
+        s.toLowerCase()  // tudo para 'ninúsculas'
+        
+    </script>
+</body>
+</html>
